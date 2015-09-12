@@ -118,6 +118,8 @@ public class GUI extends Applet implements  ActionListener, ItemListener {
     private final int[] NODES = { 400, 250, 10 };
 
     private final double MOMENTUM = 0.3;
+    
+    // learning rate
     private final double LEARNING_RATE = 0.05;
     
     // the boundaries of the initial values of the weights of the lines.
